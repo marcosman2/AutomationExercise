@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-18T20:51:12 COT" name="Suite" finished-at="2021-02-18T20:51:21 COT" duration-ms="9125">
+    <groups>
+    </groups>
+    <test started-at="2021-02-18T20:51:12 COT" name="Login Test" finished-at="2021-02-18T20:51:21 COT" duration-ms="9125">
+      <class name="testCases.AddDeleteElementsTest">
+        <test-method is-config="true" signature="navigateToAddDelete()[pri:0, instance:testCases.AddDeleteElementsTest@3315d2d7]" started-at="2021-02-18T20:51:12 COT" name="navigateToAddDelete" finished-at="2021-02-18T20:51:20 COT" duration-ms="8023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToAddDelete -->
+        <test-method signature="addButtons()[pri:0, instance:testCases.AddDeleteElementsTest@3315d2d7]" started-at="2021-02-18T20:51:20 COT" name="addButtons" finished-at="2021-02-18T20:51:21 COT" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addButtons -->
+        <test-method signature="deleteButtons()[pri:0, instance:testCases.AddDeleteElementsTest@3315d2d7]" started-at="2021-02-18T20:51:21 COT" name="deleteButtons" finished-at="2021-02-18T20:51:21 COT" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteButtons -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AddDeleteElementsTest@3315d2d7]" started-at="2021-02-18T20:51:21 COT" name="tearDown" finished-at="2021-02-18T20:51:21 COT" duration-ms="648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.AddDeleteElementsTest -->
+    </test> <!-- Login Test -->
+  </suite> <!-- Suite -->
+</testng-results>

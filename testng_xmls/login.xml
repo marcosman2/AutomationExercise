@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Login Test">
+  	<classes>
+		<class name="testCases.LoginTest">
+			<methods>  
+				<include name ="blankUser"></include>
+				<include name ="incorrectUser"></include>
+				<include name ="blankPassword"></include>
+				<include name ="incorrectPassword"></include>
+				<include name ="correctCredentials"></include>
+				<include name ="logout"></include>
+			</methods>
+		</class>
+	</classes>
+  </test> <!-- Login Test -->
+</suite> <!-- Suite -->
